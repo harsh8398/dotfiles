@@ -1,4 +1,4 @@
-neofetch
+neofetch | lolcat
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -10,7 +10,8 @@ neofetch
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
 DEFAULT_USER="harsh8398"
-POWERLEVEL9K_COLOR_SCHEME='light'
+# POWERLEVEL9K_COLOR_SCHEME='light'
+# POWERLEVEL9K_MODE='awesome-fontconfig'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir virtualenv vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
 
@@ -70,6 +71,7 @@ plugins=(
   git
   virtualenvwrapper
   docker
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
