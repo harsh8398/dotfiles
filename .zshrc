@@ -72,6 +72,9 @@ plugins=(
   virtualenvwrapper
   docker
   zsh-syntax-highlighting
+  zsh-autosuggestions
+  zsh-completions
+  wd
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -104,3 +107,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# reloading completion for plugin zsh-completions
+autoload -U compinit && compinit
