@@ -1,0 +1,70 @@
+{
+    "editor.fontFamily": "FiraCode Nerd Font Retina",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono Retina",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Night Owl",
+
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.wordWrapColumn": 100,
+    "editor.inlineSuggest.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4,
+
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    // "python.linting.pydocstyleEnabled": true,
+    // "isort.args":["--profile", "black"],
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "[dockercompose]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "vscode-pets.position": "explorer",
+    "vscode-pets.theme": "forest",
+    "vscode-pets.petSize": "medium",
+    "vscode-pets.petColor": "yellow",
+    "vscode-pets.petType": "dog",
+
+    "json.schemas": [
+        {
+            "name": "vscode-expo-manifest",
+            "url": "file:///home/perceptron/.vscode-server/data/User/globalStorage/bycedric.vscode-expo/manifest-45.0.0.json",
+            "fileMatch": ["app.json", "app.config.json"]
+        }
+    ],
+    "files.associations": {
+        "*.dvc": "yaml",
+        "dvc.lock": "yaml"
+    }
+}
