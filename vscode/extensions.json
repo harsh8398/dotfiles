@@ -47,6 +47,7 @@
         "usernamehw.errorlens",
         "mikestead.dotenv",
         "ms-kubernetes-tools.vscode-kubernetes-tools",
-        "file-icons.file-icons"
+        "file-icons.file-icons",
+        "iterative.dvc"
     ]
 }
